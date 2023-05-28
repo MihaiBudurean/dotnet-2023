@@ -229,6 +229,7 @@ public unsafe class DataFile : IDisposable
                             }
                             catch (Exception e)
                             {
+                                Console.WriteLine(e.Message);
                                 continue;
                             }
                         }
